@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    /* overflow: hidden; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(135, 224, 132);
+    border: 3px solid darkgreen;
+    height: 10vh;
+    border-left: none;
+    border-right: none;
+}
+body{
+    /* background-image: url(vashishtha-jogi-bClr95glx6k-unsplash.jpg); */
+    background: linear-gradient(rgb(54, 155, 50),rgb(216, 159, 53));
+    min-height: min-content;
+}
+#body{
+    /* background: linear-gradient(rgb(135, 224, 132),rgb(232, 180, 83)); */
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    height: 800px;
+    width: 800px;
+    background: linear-gradient(rgb(135, 224, 132),rgb(232, 180, 83));
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
